@@ -3,7 +3,7 @@
 //  AmadeusFit2
 //
 //  Created by kumar on 21/11/16.
-//  Copyright © 2016 kumar. All rights reserved.
+//  Copyright © 2016 kumar. All rights reserved.  Sole purpose is fetching the data. Most recent data.
 //
 //  Easy to find the topmost stack of the data with predicate set to nil and completion block will tell the quantity from the samples. let's say 1,2,4,5,3 were the set of data entered , we just want to have the latest data, so thinking it as a stack we can pop 3.
 

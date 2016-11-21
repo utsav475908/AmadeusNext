@@ -5,6 +5,8 @@
 //  Created by kumar on 21/11/16.
 //  Copyright © 2016 kumar. All rights reserved.
 //
+//The HealthKit store is encrypted when user's phone is locked. This means that you won't be able to read from it when your app is in the background. Writing to HealthKit, however, works even when the phone is locked.
+
 
 #import "HKHealthStore+AmadeusExtension.h"
 

@@ -16,6 +16,8 @@
 		A90E72B81DE2CC6400B0DF9C /* AmadeusFit2Tests.m in Sources */ = {isa = PBXBuildFile; fileRef = A90E72B71DE2CC6400B0DF9C /* AmadeusFit2Tests.m */; };
 		A90E72C31DE2CC6400B0DF9C /* AmadeusFit2UITests.m in Sources */ = {isa = PBXBuildFile; fileRef = A90E72C21DE2CC6400B0DF9C /* AmadeusFit2UITests.m */; };
 		A90E72D21DE2CC7600B0DF9C /* HealthKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A90E72D11DE2CC7600B0DF9C /* HealthKit.framework */; };
+		A90E72D61DE2D7FE00B0DF9C /* HKHealthStore+AmadeusExtension.m in Sources */ = {isa = PBXBuildFile; fileRef = A90E72D51DE2D7FE00B0DF9C /* HKHealthStore+AmadeusExtension.m */; };
+		A90E72DC1DE2E31F00B0DF9C /* HealthKitManager.m in Sources */ = {isa = PBXBuildFile; fileRef = A90E72DB1DE2E31F00B0DF9C /* HealthKitManager.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -54,6 +56,10 @@
 		A90E72C41DE2CC6400B0DF9C /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		A90E72D11DE2CC7600B0DF9C /* HealthKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = HealthKit.framework; path = System/Library/Frameworks/HealthKit.framework; sourceTree = SDKROOT; };
 		A90E72D31DE2CC7600B0DF9C /* AmadeusFit2.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = AmadeusFit2.entitlements; sourceTree = "<group>"; };
+		A90E72D41DE2D7FE00B0DF9C /* HKHealthStore+AmadeusExtension.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "HKHealthStore+AmadeusExtension.h"; sourceTree = "<group>"; };
+		A90E72D51DE2D7FE00B0DF9C /* HKHealthStore+AmadeusExtension.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "HKHealthStore+AmadeusExtension.m"; sourceTree = "<group>"; };
+		A90E72DA1DE2E31F00B0DF9C /* HealthKitManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HealthKitManager.h; sourceTree = "<group>"; };
+		A90E72DB1DE2E31F00B0DF9C /* HealthKitManager.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HealthKitManager.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -116,6 +122,8 @@
 				A90E72AB1DE2CC6400B0DF9C /* LaunchScreen.storyboard */,
 				A90E72AE1DE2CC6400B0DF9C /* Info.plist */,
 				A90E729D1DE2CC6400B0DF9C /* Supporting Files */,
+				A90E72D41DE2D7FE00B0DF9C /* HKHealthStore+AmadeusExtension.h */,
+				A90E72D51DE2D7FE00B0DF9C /* HKHealthStore+AmadeusExtension.m */,
 			);
 			path = AmadeusFit2;
 			sourceTree = "<group>";
@@ -124,6 +132,8 @@
 			isa = PBXGroup;
 			children = (
 				A90E729E1DE2CC6400B0DF9C /* main.m */,
+				A90E72DA1DE2E31F00B0DF9C /* HealthKitManager.h */,
+				A90E72DB1DE2E31F00B0DF9C /* HealthKitManager.m */,
 			);
 			name = "Supporting Files";
 			sourceTree = "<group>";
@@ -293,8 +303,10 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				A90E72DC1DE2E31F00B0DF9C /* HealthKitManager.m in Sources */,
 				A90E72A51DE2CC6400B0DF9C /* ViewController.m in Sources */,
 				A90E72A21DE2CC6400B0DF9C /* AppDelegate.m in Sources */,
+				A90E72D61DE2D7FE00B0DF9C /* HKHealthStore+AmadeusExtension.m in Sources */,
 				A90E729F1DE2CC6400B0DF9C /* main.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
